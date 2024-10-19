@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(238, 198, 235);
+    color: white;
+    font-family: cursive;
+}
+
+.radio-container {
+    display: flex; 
+    gap: 10px;
+    justify-content: center;
+}
+.radio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+h1,p,h3{
+    text-align: center;
+    margin-top: 100px;
+}
+img{
+    border-radius: 10px;
+}
+#gif{
+    text-align: center;
+}
+input{
+    transform: scale(1.5);
+}
+#sub{
+    text-align: center;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+button:active{
+    background-color: rgb(228, 228, 228);
+}
+#right{
+    float: right;
+}
+#left{
+    float: left;
+}
+#left, #right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+
+}
+.cont {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+a{
+    color: white;
+    font-family: cursive;
+}
+#kotki, #owocki, #dzieci{
+    text-align: center;
+}
+#dad{
+    text-align: center;
+    
+}
+iframe{
+    border: 3px white solid;
+}
